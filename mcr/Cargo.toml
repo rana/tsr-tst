@@ -1,0 +1,15 @@
+[package]
+name = "mcr"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
+tsr-tst-dat-xz = { git = "https://github.com/rana/tsr-tst-dat-xz.git" }
+prettyplease = "0.2.10"
+tar = "0.4.38"
+xz2 = "0.1.7"
